@@ -1,7 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "開始觀戰後將會重製人偶一次";
     Text = "請確保不會丟失任何東西";
-    Icon = "rbxthumb://type=Asset&id=5060864302&w=150&h=150"
 })
 
 if game:GetService("CoreGui"):FindFirstChild("ultimateFling") then
